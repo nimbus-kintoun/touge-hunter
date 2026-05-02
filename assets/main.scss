@@ -1,0 +1,49 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body {
+	background-image: linear-gradient(to bottom, #3c3c3c, #f0f0f0);
+}
+
+.wrapper {
+	background-color: #f0f0f0;
+	max-width: calc(1000px - 10px * 2);
+	.post-link {
+		padding-top:1em;
+	}
+	
+}
+
+.site-header {
+	background-color: #f0f0f0;
+}
+
+.site-footer {
+	.wrapper {
+		background: rgba(0,0,0,0);
+	}
+}
+
+
+/*POSTS*/
+
+
+.post-header {
+	padding-top:1em;
+}
+
+
+.image-container {
+ 	max-width: calc(800px - 10px * 2);
+ 	text-align: center;
+ 	
+	img {
+		padding: 1em;
+		margin: 0 auto;
+    	display: block;
+    	width: 600px;
+	}
+}
