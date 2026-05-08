@@ -14,13 +14,14 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+              {{ post.title | escape }}
+              <img src="https://raw.githubusercontent.com/nimbus-kintoun/tg_cdn/main/2026/brz-86-cpt-breakfast-run/DSC05892.JPG">
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
           </a>
-          <img src="https://raw.githubusercontent.com/nimbus-kintoun/tg_cdn/main/2026/brz-86-cpt-breakfast-run/DSC05892.JPG">
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
