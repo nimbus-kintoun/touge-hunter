@@ -21,7 +21,7 @@
 title: Touge Hunter
 email: kurvin.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  self published images, articles based around car culture in south africa  
+  self published images of cars around Cape Town  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "tougehunter.com" # the base hostname & protocol for your site, e.g. http://example.com
 
